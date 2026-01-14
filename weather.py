@@ -1,4 +1,3 @@
-# weather.py
 import requests
 from config import WEATHER_API_KEY, CITY, UNITS
 
@@ -14,4 +13,3 @@ def get_weather():
         return f"{CITY}: {temp}°C | {desc}"
     except:
         return "Weather: Unavailable"
-
