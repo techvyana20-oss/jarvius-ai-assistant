@@ -1,4 +1,3 @@
-# system_stats.py
 import psutil
 
 def get_cpu():
